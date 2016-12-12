@@ -1,0 +1,134 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+#clearfix:after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+
+.container{
+	width: 970px;
+	margin: 0 auto;
+}
+
+header{
+	background: url(../Content/img/header-bg.jpg) no-repeat;
+	background-size: 100%;
+	height: 438px;
+	padding-top: 20px;
+	font: 20px Georgia, 'Times New Roman', sans-serif; 
+}
+
+#logo img{
+	width: 75px;
+    height: 50px;
+}
+
+#nav li{
+	float: left;
+	padding-left: 20px;
+}
+
+header a{
+	color: #fff;
+}
+
+#reg{
+	text-align: right;
+}
+
+#reg li a{
+	font-size: 16px;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+
+main .container{
+	background: #aaa;
+}
+
+footer{
+	background: #ccc;
+	height: 100px;
+}
+
+#filter{
+	background: #bbb;
+	width: 100%;
+	height: 75px;
+}
+
+#advertising{
+	background: #bbb;
+	width: 100%;
+	height: 800px;
+}
+
+#content{
+	background: #ccc;
+	width: 100%;
+}

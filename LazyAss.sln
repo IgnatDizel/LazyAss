@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyAss.Web", "LazyAss.Web\LazyAss.Web.csproj", "{DF189493-5FBC-4FD8-80E0-D7AF296BA64B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyAss.DAL", "LazyAss.DAL\LazyAss.DAL.csproj", "{F477C6AF-648D-42E7-A90A-29E5E2ABBAEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyAss.BLL", "LazyAss.BLL\LazyAss.BLL.csproj", "{0769B3E6-EECD-4F33-89C8-934F37D2AAFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF189493-5FBC-4FD8-80E0-D7AF296BA64B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF189493-5FBC-4FD8-80E0-D7AF296BA64B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF189493-5FBC-4FD8-80E0-D7AF296BA64B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF189493-5FBC-4FD8-80E0-D7AF296BA64B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F477C6AF-648D-42E7-A90A-29E5E2ABBAEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F477C6AF-648D-42E7-A90A-29E5E2ABBAEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F477C6AF-648D-42E7-A90A-29E5E2ABBAEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F477C6AF-648D-42E7-A90A-29E5E2ABBAEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0769B3E6-EECD-4F33-89C8-934F37D2AAFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0769B3E6-EECD-4F33-89C8-934F37D2AAFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0769B3E6-EECD-4F33-89C8-934F37D2AAFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0769B3E6-EECD-4F33-89C8-934F37D2AAFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
